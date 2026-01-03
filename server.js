@@ -8,7 +8,7 @@ const app = express();
 // ✅ CORS FIX - Allow both localhost and Vercel deployment
 const allowedOrigins = [
   "http://localhost:3000",
-  "https://your-app-name.vercel.app" // Update this after Vercel deployment
+  "https://frontend-app-ten-eta.vercel.app"
 ];
 
 app.use(cors({
